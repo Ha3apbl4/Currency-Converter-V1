@@ -1,0 +1,64 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #5a87f7;
+	background-image: url(/img/bgc.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container {
+	width: 74%;
+	padding: 0 1%;
+	margin: 0 auto;
+}
+.navbar {
+	margin: 10px 0;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000000;
+}
+.menu__item-link {
+	font-size: 28px;
+}
+.menu__item-link:hover {
+	color: #5a87f7;
+	transition: 0.3s ease;
+}
+.currency__text {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.title {
+	margin: 126px 0 10px 0;
+	text-shadow: 1px 1px rgb(255, 255, 255);
+}
+.subtitle {
+	color: #000000;
+	margin: 0 0 24px 0;
+}
+.js__value-input {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 16px;
+}
+.js__currency-select {
+	padding: 6px 12px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color: #5a87f7;
+}
+.js__output {
+	font-size: 22px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	color: #000000;
+	text-shadow: 1px 1px rgb(255, 255, 255);
+}
