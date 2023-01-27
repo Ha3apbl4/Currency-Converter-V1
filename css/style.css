@@ -3,9 +3,10 @@ body {
 	font-size: 16px;
 	color: #5a87f7;
 	background-image: url(../img/bgc.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: cover;
+    	background-repeat: no-repeat;
+    	height: 100vh;
+    	background-position: center;
 }
 .container {
 	width: 74%;
